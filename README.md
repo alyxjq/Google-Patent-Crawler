@@ -1,5 +1,5 @@
-# Google-Patent-Crawler
-Set patent number and year, automatically crawl Google patents.
-## 1.Open 'create_seeds.py', set the international patent classification number and date, and run it to create seeds.
-## 2.Open 'crawler.py', configure 'CHROME-PATH', and run it to crawl download links.
-## 3.Start downloading by running 'crawlr_download_detents_pdfs.py'.
+# 谷歌专利爬虫
+设置专利号和年份，自动按月分类抓取谷歌专利。
+## 1.打开“create_seeds.py”，设置国际专利分类号和日期，并运行它来创建种子。
+## 2.打开“crawler.py”，配置“CHROME-PATH”，并运行它来抓取下载链接。
+## 3.通过运行“crawlr_download_detents_pdfs.py”开始下载。
