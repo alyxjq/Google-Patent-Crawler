@@ -81,7 +81,10 @@ async def main():
     if not os.path.exists('patents'):
         os.makedirs('patents')
     firstUrl,crawl_page,sd,ed,seed_lines = readlogsandurlseeds("seeds.csv","logs/record.csv")
-    print("Obtained download link: ",firstUrl,"Pages downloaded:",crawl_page)
+    print("Obtained download link: ")
+    print(firstUrl)
+    print("Pages downloaded:")
+    print(crawl_page)
     print("Press Enter to continue...")
     input("")
     browser = await launch(executablePath=CHROME_PATH,headless=False,args=['--disable-infobars','--window-size=1440,900'])
