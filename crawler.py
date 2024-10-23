@@ -15,7 +15,6 @@ def getFirstUrlAndLoadExistData( folder ):
     datalists = []
     maxnumber = 0
     maxnum_file = ""
-    print("Hello")
     file_pattern = os.path.join(folder, '**', '*')
     file_list = glob.glob(file_pattern, recursive=True)
     for file_path in file_list:
